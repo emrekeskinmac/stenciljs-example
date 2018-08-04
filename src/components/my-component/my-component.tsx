@@ -15,35 +15,37 @@ export class MyComponent {
       <div class="card">
         <div class="card-panel">
           <div class="card-left">
-            <h2>$145.00</h2>
+            <h1>$145.00</h1>
             <span>TOTAL AMOUNT</span>
           </div>
           <div class="card-right">
             <div class="header">
               <div class="icon">
-                <img src="https://resmim.net/f/HZIMhD.png" alt=""/>
+                <img src="https://resmim.net/f/HZIMhD.png" alt="" />
               </div>
-              <div class="logo"> 
-                <img src="https://resmim.net/f/W1cvAC.png" alt=""/>
+              <div class="logo">
+                <img src="https://resmim.net/f/W1cvAC.png" alt="" />
               </div>
             </div>
             <div class="form">
 
               <div class="input-field">
-                <input id="1" type="text" />
-                <label htmlFor="1" >Last Name</label>
+                <input type="text" placeholder="Card Number" />
               </div>
 
               <div class="input-field">
-                <input id="1" type="text" />
-                <label htmlFor="1" >Last Name</label>
+                <input type="text" placeholder="Card Holdee" />
               </div>
 
-              <div class="input-field">
-                <input id="1" type="text" />
-                <label htmlFor="1" >Last Name</label>
+
+              <div class="col-6 input-field mr-20">
+                <input type="text" placeholder="CVC Date" />
               </div>
 
+
+              <div class="col-6 input-field">
+                <input type="text" placeholder="CVC" />
+              </div>
 
 
               <button class="card-button">PAY BILL</button>
